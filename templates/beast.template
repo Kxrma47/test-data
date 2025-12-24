@@ -124,7 +124,7 @@
 		</deltaExchange>
 	</operators>
 
-	<mcmc id="mcmc" chainLength="100000" autoOptimize="false" operatorAnalysis="covid.ops">
+	<mcmc id="mcmc" chainLength="${length}" autoOptimize="false">
 		<joint id="joint">
 			<prior id="prior">
 				<logNormalPrior id="prior.kappa" mu="1.0" sigma="1.25" offset="0.0">
